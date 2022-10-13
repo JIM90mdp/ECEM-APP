@@ -1,0 +1,11 @@
+.redes {
+    color: white;
+    width: auto;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+
+}
+

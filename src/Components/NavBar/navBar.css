@@ -1,0 +1,17 @@
+.lista {
+    width: 40%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    /* la direccion de nuestros elementos se a de una sola linea, dice la linea de arriba, la linea de abajo dice que si agrandas o achicas la pantalla mantenga los elementos en fila y no los tire para abajo */
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    /* la linea de abajo saca los circulitos a los items de una lista, los li de la lu*/
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+
+

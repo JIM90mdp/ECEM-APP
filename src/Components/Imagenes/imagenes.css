@@ -1,0 +1,65 @@
+.imagenes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    background-image: url(../../Assets/Img/DSC_3218\ \(1\).jpg);
+    background-attachment: fixed;
+}
+
+.imagen {
+    position: relative;
+    width: 153px;
+    height: 717px;
+    border: 1px solid black;
+    color: white;
+    z-index: 2000;
+    top: -102px;
+}
+
+.imagen1 {
+    background-image: url(../../Assets/Img/Contra.jpg);
+}
+
+.imagen2 {
+    background-image: url(../../Assets/Img/Drum.jpg);
+}
+
+.imagen3 {
+    background-image: url(../../Assets/Img/Trombon.jpg);
+}
+
+.imagen4 {
+    background-image: url(../../Assets/Img/Piano.jpg);
+}
+
+.imagen5 {
+    background-image: url(../../Assets/Img/GTR.jpg);
+}
+
+
+.btnCompraTuClase {
+    position: relative;
+    bottom: -150px;
+    margin-top: auto;
+    cursor: pointer;
+
+    background-color: #62190b;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 4px 12px;
+    min-width: 48px;    
+}
+
+.btnCompraTuClase:hover {
+    background-color: #002ead;
+    transition: 0.7s;
+}

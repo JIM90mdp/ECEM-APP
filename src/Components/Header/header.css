@@ -1,0 +1,47 @@
+.backgroundImage {
+    width: 100%;
+    height: 800px;
+    background-image: url(../../Assets/Img/DSC_3218\ \(1\).jpg);
+    background-size: cover;
+    /* efecto parallax lo remplazamos con la siguiente linea */
+    background-attachment: fixed;
+    z-index: 1000;
+}
+
+.navContenedor {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+        /* la direccion de nuestros elementos se a de una sola linea, dice la linea de arriba, la linea de abajo dice que si agrandas o achicas la pantalla mantenga los elementos en fila y no los tire para abajo */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    color: white;
+    font-size: 200px;
+    padding: 70px;
+}
+
+.btnNosotros {
+    position: relative;
+    bottom: -150px;
+    margin-top: auto;
+    cursor: pointer;
+
+    background-color: #62190b;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 4px 12px;
+    min-width: 48px;    
+}
+
+.btnNosotros:hover {
+    background-color: #002ead;
+    transition: 0.7s;
+}
